@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="16dp"
+    android:layout_marginHorizontal="32dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="32dp"
+        android:id="@+id/login_icon"
+        android:src="@drawable/avarta"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/login_icon"
+        android:id="@+id/welcome_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write your Next Notes"
+            android:textStyle="bold|italic"
+            android:textSize="26sp"
+            android:textColor="@color/c_nn2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome back"
+            android:textStyle="bold"
+            android:textSize="38sp"
+            android:textColor="@color/c_nn2"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_text"
+        android:id="@+id/form_layout"
+        android:layout_marginVertical="16dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColorHint="#A6A6A6"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColorHint="#A6A6A6"
+            android:textSize="16sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/login_btn"
+            android:textColor="@color/c_nn4"
+            android:textStyle="bold"
+            android:text="SIGN IN"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form_layout"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/create_account_text_view_btn"
+            android:text=" Register" />
+
+    </LinearLayout>
+
+</RelativeLayout>

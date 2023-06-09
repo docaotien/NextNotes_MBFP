@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963037191312",
+    "project_id": "nextnotes-aeafa",
+    "storage_bucket": "nextnotes-aeafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963037191312:android:87d353f5b11c6835fe0c15",
+        "android_client_info": {
+          "package_name": "com.example.nextnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963037191312-9onreauaa7ankg9i7eoitc2ic1srbded.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEeony3G8z1EQzdvJ0w8Vj5dLBKGlOGy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963037191312-9onreauaa7ankg9i7eoitc2ic1srbded.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

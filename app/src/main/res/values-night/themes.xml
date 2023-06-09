@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NextNotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/c_nn3</item>
+        <item name="colorPrimaryVariant">@color/c_nn3</item>
+        <item name="colorOnPrimary">@color/c_nn3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/c_nn3</item>
+        <item name="colorSecondaryVariant">@color/c_nn3</item>
+        <item name="colorOnSecondary">@color/c_nn3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/c_nn3</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
